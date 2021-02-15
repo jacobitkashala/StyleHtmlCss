@@ -1,0 +1,85 @@
+/*le style du premiere page histoire d'internet*/
+body{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #c8c8c8;
+    font-size: 30px;
+}
+.layer{
+    position: absolute;
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#title{
+    font-family: Georgia, 'Times New Roman', Times, Courier, monospace,serif;
+    font-weight: bolder;
+    text-align: center;
+    font: 60px;   
+}
+p{ 
+    margin: auto; 
+    padding: 12px;
+    margin-bottom: 20px; 
+}
+p span{
+    text-decoration: underline;
+    color: red;
+}
+.ChrSe{
+    color: red;
+    font-weight: bolder;
+}
+table{
+    border-collapse: collapse;
+}
+table thead tr th{
+    color: white;
+    background-color:black ;
+}
+.proto{
+    color: red;
+    font-weight: bolder;
+}
+/*le tableau*/
+.module1{
+    background-color: #dddddd;
+    
+}
+.module61{
+    background-color:#999999
+}
+.anne{
+    font-weight: bolder;
+}
+
+figure{
+border: 3px red solid;
+border-radius: 10px;
+background-color: black;
+}
+figure figcaption{
+    color: white;
+}
+.fn{
+    border: 3px #4e41ae dashed;
+    background-color: #b7b7b7;
+    margin: 60px;
+}
+/*la deuxieme page*/
+.figure2{
+    background-color: #c8c8c8;
+    border: none;
+    color: black;
+}
+.just{
+    text-align: justify;
+}
+.leg{
+    color: black;
+}
+figure image{
+    box-shadow: 6px 6px 0px black;
+}
